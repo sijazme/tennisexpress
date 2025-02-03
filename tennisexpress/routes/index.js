@@ -4,7 +4,6 @@ var router = express.Router();
 
 const service1 = require("../services/tenniservice.js");
 
-
 /* GET home page. */
 router.get('/', async function (req, res) {
 
