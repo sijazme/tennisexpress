@@ -103,8 +103,8 @@ async function getData(url, id) {
     }
 
     if (jsonArray) {
-        jsonArray = jsonArrLine.sort(compareFn);
-        groupJson = groupBy(jsonArrLine, 'tournament');
+        jsonArray = jsonArray.sort(compareFn);
+        groupJson = groupBy(jsonArray, 'tournament');
     }
 
     return groupJson;
