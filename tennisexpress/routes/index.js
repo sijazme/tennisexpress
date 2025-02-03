@@ -2,7 +2,7 @@
 var express = require('express');
 var router = express.Router();
 
-const service1 = require("../services/tenniservice.js");
+const service1 = require("services/tenniservice.js");
 
 
 /* GET home page. */
