@@ -119,7 +119,7 @@ class TennisService {
 
         return new Promise((resolve) => {
 
-            var url = UPCOMING;
+            var url = INPLAY;
             var events = getData(url, SPORTSID); // tennis sportsId is 13
             resolve(events);
         });
